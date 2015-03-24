@@ -66,9 +66,6 @@ gulp.task('buildScripts', function() {
       .pipe(gulp.dest('dist/scripts'));
 });
 
-
-
-
 // HTML
 gulp.task('html', function () {
   return gulp.src('app/*.html')

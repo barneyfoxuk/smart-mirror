@@ -9,14 +9,12 @@ var Clock = React.createClass({
   }
 });
 
-...
 
 var clock = React.renderComponent(
   <Clock />, 
   document.body
 );
 
-...
 
 window.setInterval(function () {
   clock.setProps({
