@@ -1,0 +1,27 @@
+.flex {
+  display: flex;
+}
+
+  .flex-box {
+    flex: 1;
+  }
+
+  .flex-row-top {
+    align-items: flex-start;
+  }
+  .flex-row-bottom {
+    align-items: flex-end;
+  }
+  .flex-row-center {
+    align-items: center;
+  }
+
+  .flex-box-top {
+    align-self: flex-start;
+  }
+  .flex-box-bottom {
+    align-self: flex-end;
+  }
+  .flex-box-center {
+    align-self: center;
+  }

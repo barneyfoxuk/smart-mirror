@@ -1,0 +1,62 @@
+/*
+ * Layout
+ */
+
+//base
+$font-size-base:            16px !default;
+
+
+// breakpoints 
+$break-lg:                  1200px !default;
+$break-md:                  992px !default;
+$break-sm:                  768px !default;
+$break-xs:                  440px !default;
+
+
+$device-media-expressions: (
+  'lg' '(max-width: 1024px)',
+  'md' '(max-width: 992px)',
+  'sm' '(max-width: 768px)',
+  'xs' '(max-width: 440px)'
+)!default;
+
+$other-media-expressions: (
+  'retina'             '(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192ddpx)'
+)!default;
+
+//large images are set as the default, and retina based upon pixel-ratio
+$image-breakpoints: (
+  'medium': 768px,
+  'small': 440px
+)!default;
+
+$media-expressions: if($other-media-expressions, append($device-media-expressions, $other-media-expressions), $device-media-expressions);
+
+//layout
+$xxs:                       3px !default;
+$xs:                        5px !default;
+$sm:                        10px !default;
+$md:                        20px !default;
+$lg:                        40px !default;
+$xl:                        80px !default;
+$xxl:                       120px !default;
+
+
+
+
+
+
+
+/*
+ * Typography
+ * ---------------------------------------
+ */
+
+
+$font-sans-serif: "adelle-sans", sans-serif;
+$font-serif: "freight-text-pro", serif;
+
+
+
+
+

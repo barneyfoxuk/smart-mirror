@@ -1,0 +1,29 @@
+.weather {
+  text-align: center;
+}
+
+  .weather-today {
+    text-align: center;
+
+    > i {
+      font-size: 100px;
+      line-height: 2;
+      color: #ccc;
+    }
+  }
+
+    .weather-today-temp {
+      font-size: 60px;
+    }
+
+  .weather-week {
+    text-align: center;
+
+    > i {
+      font-size: 40px;
+      line-height: 2;
+      color: #aaa;
+    }
+  }
+  
+
